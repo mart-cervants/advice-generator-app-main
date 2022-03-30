@@ -1,0 +1,96 @@
+/* Desktop design */
+/* HTML elements */
+body {
+  background: hsl(218, 23%, 16%);
+}
+
+h1 {
+  font-family: "Manrope", sans-seri;
+  font-size: 28px;
+  font-weight: 800;
+  text-align: center;
+  color: hsl(193, 38%, 86%);
+  padding: 20px;
+}
+
+p {
+  font-family: "Manrope", sans-seri;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-align: center;
+  color: hsl(150, 100%, 66%);
+  position: relative;
+  top: 10%;
+}
+
+img {
+  display: block;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Classes */
+
+.attribution {
+  font-family: "Manrope", sans-seri;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  color: hsl(193, 38%, 86%);
+  position: absolute;
+  left: 35%;
+  top: 115%;
+}
+
+.attribution a {
+  color: hsl(150, 100%, 66%);
+}
+
+.advice-box {
+  width: 550px;
+  height: 370px;
+  background: hsl(217, 19%, 24%);
+  position: relative;
+  border-radius: 20px;
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon-dice {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+}
+
+/* IDs */
+#circle {
+  background: hsl(150, 100%, 66%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 93.5%;
+  left: 45.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Mobile design */
+@media only screen and (max-width: 375px) {
+  .advice-box {
+    width: 290px;
+    height: 440px;
+  }
+
+  .attribution {
+    left: 22.5%;
+  }
+
+  #circle {
+    left: 41.5%;
+  }
+}
