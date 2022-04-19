@@ -28,9 +28,7 @@ This challenge consist in build an advice generator app in which must contain th
 ![image](https://user-images.githubusercontent.com/68826045/160897537-feb28027-88f8-4232-8172-4ce16a57a051.png)
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Click here to see the results](https://advice-generator-app-main-delta.vercel.app/)
 
 ## My process
 
