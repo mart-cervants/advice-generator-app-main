@@ -1,9 +1,14 @@
 const resDiv = document.querySelector(".advice");
 const resAdvId = document.querySelector(".adv-id");
+const resBtn = document.querySelector("#circle");
 
 window.onload = () => {
   getAdvice();
 };
+
+resBtn.addEventListener("click", () => {
+  getAdvice();
+});
 
 function getAdvice() {
   fetch("https://api.adviceslip.com/advice")
@@ -12,7 +17,7 @@ function getAdvice() {
     })
     .then((adviceData) => {
       const Adviceobj = adviceData.slip;
-      resAdvId.innerHTML = resAdvId.innerHTML + Adviceobj.id;
+      resAdvId.innerHTML = "ADVICE #" + Adviceobj.id;
       resDiv.innerHTML = "“" + Adviceobj.advice + "”";
     })
     .catch((error) => {
